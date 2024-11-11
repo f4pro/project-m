@@ -8,6 +8,7 @@
                     </a>
                 </div>
                 <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
+                    <!-- Dark mode switch - I'll back to it -->
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="20" height="20"
                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
@@ -43,7 +44,7 @@
         </div>
         <div class="sidebar-menu">
             <ul class="menu">
-                <li class="sidebar-item active ">
+                <li class="sidebar-item active">
                     <a href="index.html" class='sidebar-link'>
                         <i class="bi bi-grid-fill"></i>
                         <span>Dashboard</span>
@@ -51,15 +52,15 @@
                 </li>
 
                 <li class="sidebar-title">Keuangan Dan Zakat</li>
-                <li class="sidebar-item  has-sub">
+                <li class="sidebar-item has-sub">
                     <a href="#" class='sidebar-link'>
-                        <i class="bi bi-stack"></i>
+                        <i class="bi bi-grid-fill"></i>
                         <span>Laporan Keuangan</span>
                     </a>
 
                     <ul class="submenu ">
 
-                        <li class="submenu-item  ">
+                        <li class="submenu-item ">
                             <a href="#" class="submenu-link">Laporan Ringkas</a>
                         </li>
                         <li class="submenu-item  ">
@@ -82,7 +83,7 @@
                 
                 <li class="sidebar-item  has-sub">
                     <a href="#" class='sidebar-link'>
-                        <i class="bi bi-stack"></i>
+                        <i class="bi bi-grid-fill"></i>
                         <span>Zakat Dan Infaq</span>
                     </a>
                     <ul class="submenu ">
