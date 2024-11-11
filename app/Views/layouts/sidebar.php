@@ -1,142 +1,161 @@
-<div id="sidebar">
-    <div class="sidebar-wrapper active">
-        <div class="sidebar-header position-relative">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="logo">
-                    <a href="index.html">
-                        <!--<img src="./assets/compiled/svg/logo.svg" alt="Logo" srcset>-->*LOGO*
-                    </a>
-                </div>
-                <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
-                    <!-- Dark mode switch - I'll back to it -->
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="20" height="20"
-                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
-                        <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <path
-                                d="M10.5 14.5c2.219 0 4-1.763 4-3.982a4.003 4.003 0 0 0-4-4.018c-2.219 0-4 1.781-4 4c0 2.219 1.781 4 4 4zM4.136 4.136L5.55 5.55m9.9 9.9l1.414 1.414M1.5 10.5h2m14 0h2M4.135 16.863L5.55 15.45m9.899-9.9l1.414-1.415M10.5 19.5v-2m0-14v-2"
-                                opacity=".3"></path>
-                            <g transform="translate(-210 -1)">
-                                <path d="M220.5 2.5v2m6.5.5l-1.5 1.5"></path>
-                                <circle cx="220.5" cy="11.5" r="4"></circle>
-                                <path d="m214 5l1.5 1.5m5 14v-2m6.5-.5l-1.5-1.5M214 18l1.5-1.5m-4-5h2m14 0h2"></path>
-                            </g>
-                        </g>
-                    </svg> -->
-                    <!-- <div class="form-check form-switch fs-6">
-                        <input class="form-check-input  me-0" type="checkbox" id="toggle-dark" style="cursor: pointer"
-                            disabled>
-                        <label class="form-check-label"></label>
-                    </div> -->
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        aria-hidden="true" role="img" class="iconify iconify--mdi" width="20" height="20"
-                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                        <path fill="currentColor"
-                            d="m17.75 4.09l-2.53 1.94l.91 3.06l-2.63-1.81l-2.63 1.81l.91-3.06l-2.53-1.94L12.44 4l1.06-3l1.06 3l3.19.09m3.5 6.91l-1.64 1.25l.59 1.98l-1.7-1.17l-1.7 1.17l.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95l2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85c-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14c.4-.4.82-.76 1.27-1.08c.75-.53 1.93.36 1.85 1.19c-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82c-2.81 3.14-2.7 7.96.31 10.98c3.02 3.01 7.84 3.12 10.98.31Z">
-                        </path>
-                    </svg> -->
-                </div>
-                <div class="sidebar-toggler  x">
-                    <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
-                </div>
-            </div>
+<div class="main-sidebar sidebar-style-2">
+    <aside id="sidebar-wrapper">
+        <div class="sidebar-brand">
+            <a href="index.html">Stisla</a>
         </div>
-        <div class="sidebar-menu">
-            <ul class="menu">
-                <li class="sidebar-item active">
-                    <a href="index.html" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
-                        <span>Dashboard</span>
-                    </a>
-                </li>
-
-                <li class="sidebar-title">Keuangan Dan Zakat</li>
-                <li class="sidebar-item has-sub">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
-                        <span>Laporan Keuangan</span>
-                    </a>
-
-                    <ul class="submenu ">
-
-                        <li class="submenu-item ">
-                            <a href="#" class="submenu-link">Laporan Ringkas</a>
-                        </li>
-                        <li class="submenu-item  ">
-                            <a href="#" class="submenu-link">Laporan Pemasukan</a>
-                        </li>
-                        <li class="submenu-item  ">
-                            <a href="#" class="submenu-link">Laporan Pengeluaran</a>
-                        </li>
-
-                    </ul>
-
-                </li>
-
-                <li class="sidebar-item ">
-                    <a href="index.html" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
-                        <span>Akun Bank</span>
-                    </a>
-                </li>
-                
-                <li class="sidebar-item  has-sub">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
-                        <span>Zakat Dan Infaq</span>
-                    </a>
-                    <ul class="submenu ">
-                        <li class="submenu-item  ">
-                            <a href="#" class="submenu-link">Laporan Infaq</a>
-                        </li>
-                        <li class="submenu-item  ">
-                            <a href="#" class="submenu-link">Laporan Zakat</a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="sidebar-title">Inventaris</li>
-
-                <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
-                        <span>Aset Masjid</span>
-                    </a>
-                </li>
-                
-
-                <li class="sidebar-title">Kegiatan</li>
-
-                <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
-                        <span>Agenda</span>
-                    </a>
-                </li>
-
-                <li class="sidebar-title">Menu Super Admin</li>
-
-                <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
-                        <span>Maintanance Mode</span>
-                    </a>
-                </li>
-                <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
-                        <span>Akun</span>
-                    </a>
-                </li>
-                <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
-                        <span>Backup DB</span>
-                    </a>
-                </li>
-
-            </ul>
+        <div class="sidebar-brand sidebar-brand-sm">
+            <a href="index.html">St</a>
         </div>
-    </div>
+        <ul class="sidebar-menu">
+            <li class="menu-header">Dashboard</li>
+            <li class="dropdown active">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="nav-link" href="index-0.html">General Dashboard</a></li>
+                    <li class=active><a class="nav-link" href="index.html">Ecommerce Dashboard</a></li>
+                </ul>
+            </li>
+            <li class="menu-header">Starter</li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i>
+                    <span>Layout</span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="nav-link" href="layout-default.html">Default Layout</a></li>
+                    <li><a class="nav-link" href="layout-transparent.html">Transparent Sidebar</a></li>
+                    <li><a class="nav-link" href="layout-top-navigation.html">Top Navigation</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>Blank Page</span></a></li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-th"></i> <span>Bootstrap</span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="nav-link" href="bootstrap-alert.html">Alert</a></li>
+                    <li><a class="nav-link" href="bootstrap-badge.html">Badge</a></li>
+                    <li><a class="nav-link" href="bootstrap-breadcrumb.html">Breadcrumb</a></li>
+                    <li><a class="nav-link" href="bootstrap-buttons.html">Buttons</a></li>
+                    <li><a class="nav-link" href="bootstrap-card.html">Card</a></li>
+                    <li><a class="nav-link" href="bootstrap-carousel.html">Carousel</a></li>
+                    <li><a class="nav-link" href="bootstrap-collapse.html">Collapse</a></li>
+                    <li><a class="nav-link" href="bootstrap-dropdown.html">Dropdown</a></li>
+                    <li><a class="nav-link" href="bootstrap-form.html">Form</a></li>
+                    <li><a class="nav-link" href="bootstrap-list-group.html">List Group</a></li>
+                    <li><a class="nav-link" href="bootstrap-media-object.html">Media Object</a></li>
+                    <li><a class="nav-link" href="bootstrap-modal.html">Modal</a></li>
+                    <li><a class="nav-link" href="bootstrap-nav.html">Nav</a></li>
+                    <li><a class="nav-link" href="bootstrap-navbar.html">Navbar</a></li>
+                    <li><a class="nav-link" href="bootstrap-pagination.html">Pagination</a></li>
+                    <li><a class="nav-link" href="bootstrap-popover.html">Popover</a></li>
+                    <li><a class="nav-link" href="bootstrap-progress.html">Progress</a></li>
+                    <li><a class="nav-link" href="bootstrap-table.html">Table</a></li>
+                    <li><a class="nav-link" href="bootstrap-tooltip.html">Tooltip</a></li>
+                    <li><a class="nav-link" href="bootstrap-typography.html">Typography</a></li>
+                </ul>
+            </li>
+            <li class="menu-header">Stisla</li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i> <span>Components</span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="nav-link" href="components-article.html">Article</a></li>
+                    <li><a class="nav-link beep beep-sidebar" href="components-avatar.html">Avatar</a></li>
+                    <li><a class="nav-link" href="components-chat-box.html">Chat Box</a></li>
+                    <li><a class="nav-link beep beep-sidebar" href="components-empty-state.html">Empty State</a></li>
+                    <li><a class="nav-link" href="components-gallery.html">Gallery</a></li>
+                    <li><a class="nav-link beep beep-sidebar" href="components-hero.html">Hero</a></li>
+                    <li><a class="nav-link" href="components-multiple-upload.html">Multiple Upload</a></li>
+                    <li><a class="nav-link beep beep-sidebar" href="components-pricing.html">Pricing</a></li>
+                    <li><a class="nav-link" href="components-statistic.html">Statistic</a></li>
+                    <li><a class="nav-link" href="components-tab.html">Tab</a></li>
+                    <li><a class="nav-link" href="components-table.html">Table</a></li>
+                    <li><a class="nav-link" href="components-user.html">User</a></li>
+                    <li><a class="nav-link beep beep-sidebar" href="components-wizard.html">Wizard</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i> <span>Forms</span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="nav-link" href="forms-advanced-form.html">Advanced Form</a></li>
+                    <li><a class="nav-link" href="forms-editor.html">Editor</a></li>
+                    <li><a class="nav-link" href="forms-validation.html">Validation</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-map-marker-alt"></i> <span>Google
+                        Maps</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="gmaps-advanced-route.html">Advanced Route</a></li>
+                    <li><a href="gmaps-draggable-marker.html">Draggable Marker</a></li>
+                    <li><a href="gmaps-geocoding.html">Geocoding</a></li>
+                    <li><a href="gmaps-geolocation.html">Geolocation</a></li>
+                    <li><a href="gmaps-marker.html">Marker</a></li>
+                    <li><a href="gmaps-multiple-marker.html">Multiple Marker</a></li>
+                    <li><a href="gmaps-route.html">Route</a></li>
+                    <li><a href="gmaps-simple.html">Simple</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-plug"></i> <span>Modules</span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="nav-link" href="modules-calendar.html">Calendar</a></li>
+                    <li><a class="nav-link" href="modules-chartjs.html">ChartJS</a></li>
+                    <li><a class="nav-link" href="modules-datatables.html">DataTables</a></li>
+                    <li><a class="nav-link" href="modules-flag.html">Flag</a></li>
+                    <li><a class="nav-link" href="modules-font-awesome.html">Font Awesome</a></li>
+                    <li><a class="nav-link" href="modules-ion-icons.html">Ion Icons</a></li>
+                    <li><a class="nav-link" href="modules-owl-carousel.html">Owl Carousel</a></li>
+                    <li><a class="nav-link" href="modules-sparkline.html">Sparkline</a></li>
+                    <li><a class="nav-link" href="modules-sweet-alert.html">Sweet Alert</a></li>
+                    <li><a class="nav-link" href="modules-toastr.html">Toastr</a></li>
+                    <li><a class="nav-link" href="modules-vector-map.html">Vector Map</a></li>
+                    <li><a class="nav-link" href="modules-weather-icon.html">Weather Icon</a></li>
+                </ul>
+            </li>
+            <li class="menu-header">Pages</li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="far fa-user"></i> <span>Auth</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="auth-forgot-password.html">Forgot Password</a></li>
+                    <li><a href="auth-login.html">Login</a></li>
+                    <li><a href="auth-register.html">Register</a></li>
+                    <li><a href="auth-reset-password.html">Reset Password</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-exclamation"></i> <span>Errors</span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="nav-link" href="errors-503.html">503</a></li>
+                    <li><a class="nav-link" href="errors-403.html">403</a></li>
+                    <li><a class="nav-link" href="errors-404.html">404</a></li>
+                    <li><a class="nav-link" href="errors-500.html">500</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-bicycle"></i> <span>Features</span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="nav-link" href="features-activities.html">Activities</a></li>
+                    <li><a class="nav-link" href="features-post-create.html">Post Create</a></li>
+                    <li><a class="nav-link" href="features-posts.html">Posts</a></li>
+                    <li><a class="nav-link" href="features-profile.html">Profile</a></li>
+                    <li><a class="nav-link" href="features-settings.html">Settings</a></li>
+                    <li><a class="nav-link" href="features-setting-detail.html">Setting Detail</a></li>
+                    <li><a class="nav-link" href="features-tickets.html">Tickets</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-ellipsis-h"></i> <span>Utilities</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="utilities-contact.html">Contact</a></li>
+                    <li><a class="nav-link" href="utilities-invoice.html">Invoice</a></li>
+                    <li><a href="utilities-subscribe.html">Subscribe</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-link" href="credits.html"><i class="fas fa-pencil-ruler"></i> <span>Credits</span></a>
+            </li>
+        </ul>
+
+        <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
+            <a href="https://getstisla.com/docs" class="btn btn-primary btn-lg btn-block btn-icon-split">
+                <i class="fas fa-rocket"></i> Documentation
+            </a>
+        </div>
+    </aside>
 </div>
