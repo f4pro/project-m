@@ -19,6 +19,13 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/components.css">
+
+    <!-- Datatables -->
+    <link
+        href="https://cdn.datatables.net/v/bs4/jq-3.7.0/jszip-3.10.1/dt-2.1.8/b-3.2.0/b-colvis-3.2.0/b-html5-3.2.0/b-print-3.2.0/date-1.5.4/r-3.0.3/datatables.min.css"
+        rel="stylesheet">
+
+
     <!-- Start GA -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-94034622-3"></script>
     <script>
@@ -43,11 +50,11 @@
         </div>
 
 
+
+        <?=$this->renderSection('content')?>
+
+        <?=$this->include('layouts/footer')?>
     </div>
-
-    <?=$this->renderSection('content')?>
-
-    <?=$this->include('layouts/footer')?>
 
 
     <!-- General JS Scripts -->
@@ -72,6 +79,14 @@
     <!-- Template JS File -->
     <script src="assets/js/scripts.js"></script>
     <script src="assets/js/custom.js"></script>
+
+    <!-- Datatables -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+    <script
+        src="https://cdn.datatables.net/v/bs4/jq-3.7.0/jszip-3.10.1/dt-2.1.8/b-3.2.0/b-colvis-3.2.0/b-html5-3.2.0/b-print-3.2.0/date-1.5.4/r-3.0.3/datatables.min.js">
+    </script>
+    
 </body>
 
 </html>
